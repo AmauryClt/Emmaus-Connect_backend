@@ -23,8 +23,8 @@ CREATE TABLE smartphone (
 
 INSERT INTO smartphone (ID, Phonename, Systemeexploitation, Marque, Ram, Memoire, Reseau, Ecran, Etatglobal, Etatecran, Capacitebatterie, Chargeur)
 VALUES
-  (1, 'Téléphone 1', 'Android', 'Samsung', '4', '64', '4G', '6 pouces', 'bon', 'bon', 'excellent', 'oui'),
-  (2, 'Téléphone 2', 'iOS', 'Apple', '8', '256', '5G', '5.8 pouces', 'excellent', 'excellent', 'excellent', 'oui'),
-  (3, 'Téléphone 3', 'Android', 'Huawei', '6', '128', '4G', '6.4 pouces', 'correct', 'bon', 'bon', 'oui'),
-  (4, 'Téléphone 4', 'iOS', 'Apple', '4', '128', '4G', '5.5 pouces', 'mauvais', 'correct', 'correct', 'non'),
-  (5, 'Téléphone 5', 'Android', 'Xiaomi', '8', '256', '5G', '6.67 pouces', 'excellent', 'excellent', 'excellent', 'oui');
+  (1, 'Galaxy', 'Android', 'Samsung', '4', '64', '4G', '6 pouces', 'bon', 'bon', 'excellent', 'oui'),
+  (2, 'Iphone SE', 'iOS', 'Apple', '8', '256', '5G', '5.8 pouces', 'excellent', 'excellent', 'excellent', 'oui'),
+  (3, 'HUAWEI NOVA 9', 'Android', 'Huawei', '6', '128', '4G', '6.4 pouces', 'correct', 'bon', 'bon', 'oui'),
+  (4, 'Iphone 12', 'iOS', 'Apple', '4', '128', '4G', '5.5 pouces', 'mauvais', 'correct', 'correct', 'non'),
+  (5, 'XIAOMI 13 Ultra', 'Android', 'Xiaomi', '8', '256', '5G', '6.67 pouces', 'excellent', 'excellent', 'excellent', 'oui');
