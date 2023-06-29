@@ -19,6 +19,7 @@ const phoneHandlers = require("./phoneHandlers");
 
 app.get("/api/phone", phoneHandlers.getPhones);
 app.get("/api/phone/:id", phoneHandlers.getPhoneById);
+app.post("/api/phone", phoneHandlers.postPhone);
 
 app.listen(port, (err) => {
   if (err) {

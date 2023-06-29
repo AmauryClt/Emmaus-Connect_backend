@@ -7,7 +7,7 @@ CREATE TABLE user (
 );
 
 CREATE TABLE smartphone (
-    ID INT PRIMARY KEY,
+    ID INT PRIMARY KEY AUTO_INCREMENT,
     Phonename VARCHAR(50),
     Systemeexploitation VARCHAR(50),
     Marque VARCHAR(50),
@@ -21,10 +21,10 @@ CREATE TABLE smartphone (
     Chargeur ENUM('oui', 'non')
 );
 
-INSERT INTO smartphone (ID, Phonename, Systemeexploitation, Marque, Ram, Memoire, Reseau, Ecran, Etatglobal, Etatecran, Capacitebatterie, Chargeur)
+INSERT INTO smartphone (Phonename, Systemeexploitation, Marque, Ram, Memoire, Reseau, Ecran, Etatglobal, Etatecran, Capacitebatterie, Chargeur)
 VALUES
-  (1, 'Galaxy', 'Android', 'Samsung', '4', '64', '4G', '6 pouces', 'bon', 'bon', 'excellent', 'oui'),
-  (2, 'Iphone SE', 'iOS', 'Apple', '8', '256', '5G', '5.8 pouces', 'excellent', 'excellent', 'excellent', 'oui'),
-  (3, 'HUAWEI NOVA 9', 'Android', 'Huawei', '6', '128', '4G', '6.4 pouces', 'correct', 'bon', 'bon', 'oui'),
-  (4, 'Iphone 12', 'iOS', 'Apple', '4', '128', '4G', '5.5 pouces', 'mauvais', 'correct', 'correct', 'non'),
-  (5, 'XIAOMI 13 Ultra', 'Android', 'Xiaomi', '8', '256', '5G', '6.67 pouces', 'excellent', 'excellent', 'excellent', 'oui');
+  ('Galaxy', 'Android', 'Samsung', '4', '64', '4G', '6 pouces', 'bon', 'bon', 'excellent', 'oui'),
+  ('Iphone SE', 'iOS', 'Apple', '8', '256', '5G', '5.8 pouces', 'excellent', 'excellent', 'excellent', 'oui'),
+  ('HUAWEI NOVA 9', 'Android', 'Huawei', '6', '128', '4G', '6.4 pouces', 'correct', 'bon', 'bon', 'oui'),
+  ('Iphone 12', 'iOS', 'Apple', '4', '128', '4G', '5.5 pouces', 'mauvais', 'correct', 'correct', 'non'),
+  ('XIAOMI 13 Ultra', 'Android', 'Xiaomi', '8', '256', '5G', '6.67 pouces', 'excellent', 'excellent', 'excellent', 'oui');
